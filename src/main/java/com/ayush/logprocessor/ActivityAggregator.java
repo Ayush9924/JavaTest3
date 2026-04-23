@@ -8,9 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
-/**
- * Thread-safe shared aggregator for user activity counts and action-type totals.
- */
+
 public class ActivityAggregator {
 
     private final ConcurrentHashMap<String, AtomicInteger> userActionCounts = new ConcurrentHashMap<>();
