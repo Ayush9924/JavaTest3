@@ -5,10 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-/**
- * Reads a single log file and updates the shared ActivityAggregator.
- * One instance is intended to run in one thread.
- */
+
 public class LogProcessor implements Runnable {
 
     private final Path filePath;
