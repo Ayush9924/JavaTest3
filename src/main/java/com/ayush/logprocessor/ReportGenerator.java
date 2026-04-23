@@ -7,9 +7,7 @@ import java.nio.file.Path;
 import java.util.Map;
 import java.util.TreeMap;
 
-/**
- * Generates final report file from aggregated data.
- */
+
 public class ReportGenerator {
 
     public void generate(Path outputPath, ActivityAggregator aggregator) throws IOException {
