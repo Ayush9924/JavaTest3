@@ -11,16 +11,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Stream;
 
-/**
- * Entry point.
- *
- * Usage:
- *   java com.ayush.logprocessor.Main [logsDir] [reportPath]
- *
- * Defaults:
- *   logsDir   = ./logs
- *   reportPath= ./report.txt
- */
+
 public class Main {
 
     public static void main(String[] args) {
