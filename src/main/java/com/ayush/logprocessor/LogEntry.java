@@ -4,9 +4,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeParseException;
 import java.util.Objects;
 
-/**
- * Represents one parsed log entry.
- */
+
 public final class LogEntry {
     private final LocalDateTime timestamp;
     private final String userId;
@@ -30,10 +28,6 @@ public final class LogEntry {
         return action;
     }
 
-    /**
-     * Tries to parse a line in format: <timestamp> <userId> <action>
-     * Returns null if malformed.
-     */
     public static LogEntry fromLine(String line) {
         if (line == null) {
             return null;
